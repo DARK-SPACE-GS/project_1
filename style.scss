@@ -237,11 +237,12 @@ section{
 .home{
     padding: 0;
 
-    .slide{
+    .swiper-slide{
         display: flex;
         align-items: center;
         height: 60rem;
         background-size: cover !important;
+        background-position: center !important;
 
         .content{
             width: 50rem;
@@ -260,8 +261,9 @@ section{
     }
 }
 
-
-
+.swiper-pagination-bullet-active{
+    background: $green;
+}
 
 
 
@@ -404,6 +406,9 @@ section{
                 }
             }
             
+        }
+        .home .slide .content h3{
+            font-size: 3rem;
         }
     }
 
