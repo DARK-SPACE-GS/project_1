@@ -17,13 +17,14 @@
 img{
     user-select: none;
 }
-$green: #0eb582;
-$light-green: #f0fdfa;
+$blue: #02198B;
+$light-blue: #daf0ff
 $light-color: #777;
 $light-white: #eee;
 $black: #444;
 $white: #fff;
-$border: 0.1rem solid $green;
+$border: 0.1rem solid 
+$blue;
 $box-shadow:0 0.5rem 1rem rgba(0,0,0,0.1);
 
 @mixin grid($val) {
@@ -53,7 +54,8 @@ html{
     } 
 
     &::-webkit-scrollbar-thumb{
-        background: $green;
+        background: 
+$blue;
     }
 }
 
@@ -73,7 +75,8 @@ section{
     p{
         @include graphText(2rem);
         a{
-            color: $green;
+            color: 
+$blue;
 
             &:hover{
                 text-decoration: underline;
@@ -94,13 +97,15 @@ section{
     padding: 1rem 3rem;
     font-size: 1.8rem;
     border: $border;
-    background: $light-green;
-    color: $green;
+    background: $light-blue;
+    color: 
+$blue;
     cursor: pointer;
     text-transform: capitalize;
 
     &:hover{
-        background: $green;
+        background: 
+$blue;
         color: $white;
     }
 }
@@ -121,7 +126,8 @@ section{
         font-weight: bolder;
 
         i{
-            color: $green;
+            color: 
+$blue;
         }
     }
 
@@ -148,7 +154,8 @@ section{
             @include titleText(2rem);
     
             &:hover{
-                color: $green;
+                color: 
+$blue;
             }
         }
         }
@@ -161,7 +168,8 @@ section{
 
 
         &:hover{
-            color: $green;
+            color: 
+$blue;
         }
     }
 
@@ -245,7 +253,8 @@ section{
 
                 &:hover{
                     text-decoration: underline;
-                    color: $green;
+                    color: 
+$blue;
                 }
             }
         }
@@ -258,7 +267,8 @@ section{
         margin:0 0.5rem;
 
         &.active{
-            background: $green;
+            background: 
+$blue;
             color: $white;
         }
     }
@@ -292,7 +302,8 @@ section{
 }
 
 .swiper-pagination-bullet-active{
-    background: $green;
+    background: 
+$blue;
 }
 
 .subjects{
@@ -303,11 +314,12 @@ section{
             padding: 3rem 2rem;
             text-align: center;
             border: $border;
-            background: $light-green;
+            background: $light-blue;
             cursor: pointer;
 
             &:hover{
-                background: $green;
+                background: 
+$blue;
                 h3{
                     color: $white;
                 }
@@ -340,7 +352,7 @@ section{
     .slide{
         text-align: center;
         position: relative;
-        background: $light-green;
+        background: $light-blue;
         overflow: hidden;
 
         &:hover .container{
@@ -361,7 +373,8 @@ section{
         .container{
             position: absolute;
             bottom: -100%; right: 0; left: 0;
-            background: $green;
+            background: 
+$blue;
             padding: 2rem 3rem;
 
             h3{
@@ -408,7 +421,7 @@ section{
             .icons{
                 text-align: center;
                 border: $border;
-                background: $light-green;
+                background: $light-blue;
                 padding: 3rem 2rem;
 
                 img{
@@ -437,7 +450,8 @@ section{
 
             .image{
                 img{
-                    background: $green;
+                    background: 
+$blue;
                 }
                 .share{
                     bottom: 0;
@@ -449,7 +463,7 @@ section{
             position: relative;
             overflow: hidden;
             img{
-                background: $light-green;
+                background: $light-blue;
                 width: 100%;
             }
 
@@ -464,7 +478,8 @@ section{
                     margin: 0 1rem;
                     color: $white;
                     &:hover{
-                        color: $green;
+                        color: 
+$blue;
                     }
                 }
             }
@@ -490,7 +505,7 @@ section{
         p{
             @include graphText(1.5rem);
             position: relative;
-            background: $light-green;
+            background: $light-blue;
             border: $border;
             margin-bottom: 3rem;
             padding: 2rem;
@@ -505,7 +520,7 @@ section{
                 -moz-transform: translateX(-50%) rotate(45deg);
                 -ms-transform: translateX(-50%) rotate(45deg);
                 -o-transform: translateX(-50%) rotate(45deg);
-                background: $light-green;
+                background: $light-blue;
                 border-bottom: $border;
                 border-right: $border;
                 height: 2rem;
@@ -528,7 +543,8 @@ section{
             }
             .stars{
                 font-size: 1.2rem;
-                color: $green;
+                color: 
+$blue;
             }
     }
 }
@@ -591,7 +607,8 @@ section{
                         @include titleText(1.5rem);
 
                         i{
-                            color: $green;
+                            color: 
+$blue;
                             padding-right: 0.5rem;
                         }
                     }
@@ -616,7 +633,7 @@ section{
             text-align: center;
             padding: 3rem 2rem;
             border: $border;
-            background: $light-green;
+            background: $light-blue;
 
             i{
                 height: 6rem;
@@ -630,7 +647,8 @@ section{
                 -o-border-radius: 50%;
                 margin-bottom: 0.5rem;
                 color: $white;
-                background: $green;
+                background: 
+$blue;
             }
             h3{
                 @include titleText(2rem);
@@ -672,11 +690,12 @@ section{
                 margin: 0.7rem 0;
 
                 &:hover{
-                    background: $light-green;
+                    background: $light-blue;
                     color: $white;
 
                     &::placeholder{
-                        color: $green;
+                        color: 
+$blue;
                     }
                 }
             }
@@ -702,7 +721,8 @@ section{
 
         &.active{
             .accordion-heading{
-                background: $green;
+                background: 
+$blue;
                 h3{
                     color: $white;
                 }
@@ -733,7 +753,8 @@ section{
             }
             i{
                 font-size: 2rem;
-                color: $green;
+                color: 
+$blue;
             }
         }
         .according-content{
@@ -756,7 +777,7 @@ section{
 
 
 .footer{
-    background: $light-green;
+    background: $light-blue;
 
     .box-container{
         @include grid(25rem);
@@ -768,7 +789,8 @@ section{
                 padding: 1rem 0;
 
                 i{
-                    color: $green;
+                    color: 
+$blue;
                 }
             }
 
@@ -780,7 +802,8 @@ section{
                     width: 4.5rem;
                     line-height: 4.5rem;
                     font-size: 1.7rem;
-                    background-color: $green;
+                    background-color: 
+$blue;
                     color: $white;
                     margin-right: 0.3rem;
                     text-align: center;
@@ -797,7 +820,8 @@ section{
                 display: block;
 
                 &:hover{
-                    color: $green;
+                    color: 
+$blue;
                     text-decoration: underline;
                 }
             }
@@ -823,7 +847,8 @@ section{
         border-top: $border;
         
         span, a{
-            color: $green;
+            color: 
+$blue;
         &:hover{
             text-decoration: underline;
         }

@@ -1,0 +1,10 @@
+green color = #0eb582
+light green = #f0fdfa
+very light blue = #daf0ff
+light blue =  #b5e2ff
+sky blue = #8fd3fe
+bule = #45b6fe
+indigo = #090C9B
+medium-indigo = #02198B
+dark indigo = #02055A
+very dark indigo = #1d1b31
