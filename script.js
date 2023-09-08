@@ -135,3 +135,22 @@ document.querySelector('.load-mode .btn').onclick = () =>{
     });
     document.querySelector('.load-mode .btn').style.display = 'none';
 };
+
+/*================================= contact section email validation =================================*/ 
+document.addEventListener("DOMContentLoaded", function () {
+    const emailField = document.getElementById("email");
+    const contactForm = document.getElementById("contact-form");
+
+    contactForm.addEventListener("submit", function (event) {
+        if (!isValidEmail(emailField.value)) {
+            event.preventDefault(); // Prevent form submission
+            alert("Please enter a valid email address.");
+        }
+    });
+
+    function isValidEmail(email) {
+        // Regular expression for email validation
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$/;
+        return emailRegex.test(email);
+    }
+});

@@ -494,7 +494,7 @@ section {
   color: #444;
 }
 .teachers .slide .content span {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2;
   color: #777;
 }
@@ -696,10 +696,12 @@ section {
 }
 .contact .row .image img {
   width: 100%;
+  
 }
 .contact .row form {
   flex: 1 1 40rem;
-  border: 0.1rem solid #02198B;
+  background-color: #daf0ff;
+  box-shadow: 13px 13px 20px #c5c9cc, -13px -13px 20px #fff;
   padding: 2rem;
   border-radius: 12px;
   -webkit-border-radius: 12px;
@@ -720,7 +722,9 @@ section {
 .contact .row form .box {
   width: 100%;
   padding: 1.2rem 1.4rem;
-  border: 0.1rem solid #02198B;
+  /*border: 0.1rem solid #02198B;*/
+  background-color: #fff;
+  
   font-size: 1.6rem;
   margin: 0.7rem 0;
   border-radius: 25px;
@@ -731,7 +735,8 @@ section {
 }
 .contact .row form .box:hover {
   background: #daf0ff;
-  color: #fff;
+  color: #000;
+  border: 0.1rem solid #02198B;
 }
 .contact .row form .box:hover::-moz-placeholder {
   color: #02198B;

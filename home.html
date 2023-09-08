@@ -267,9 +267,9 @@
             <div class="box">
                 <h3>newsletter</h3>
                 <p>subscribe for latest updates</p>
-                <form action="">
-                    <input type="email" name="" placeholder="enter your email" id="" class="email">
-                    <input type="submit" value="subscribe" class="btn">
+                <form action="subscribe.php" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" id="" class="email" required value="<?php echo $userEmail ?>">
+                    <button type="submit" name="subscribe" class="btn">Subscribe</button>
                 </form>
             </div>
         </div>
